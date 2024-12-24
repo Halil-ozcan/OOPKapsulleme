@@ -10,6 +10,10 @@ namespace OOPSinifKapsullemeOdev
     {
         static void Main(string[] args)
         {
+            Musteri musteri = new Musteri();
+
+            musteri.TCKimlikNumarasi = "12345678901";
+            string TC = musteri.TCKimlikNumarasi;
         }
     }
 }
